@@ -1,1 +1,1 @@
-console.log("server dosyası")
+console.log("server dosyası...")
