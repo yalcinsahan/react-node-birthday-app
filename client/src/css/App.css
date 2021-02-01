@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box; 
+}
+
+.mainDiv{
+    background-color: blue;
+    background-image: url('C:/Users/user/Desktop/Programming/GitHub/react-node-birthday-app/client/src/images/appbackground.jpg');
+    background-size: cover;
+    min-height: 753px;
+    padding-top: 75px;
+    display: flex;
+}
+
+.subDiv {
+    width: 100%;
+    margin: auto;
+}
+
+.codeInput {
+    width: 100%;
+    height: 40px;
+    font-style: italic;
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.flexBox {
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.infoBox {
+    width: 45%;
+    background-color: rgb(200, 200, 255);
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px green solid;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.isimBaslik {
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.gunBaslik {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+    color: blue;
+}
+
+.rightDiv {
+    width: 25%;
+}
+
+.uyelikButton { 
+    width: 80%;
+    display: block;
+    margin: auto;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: navy;
+}
+
+.getirButton { 
+    width: 80%;
+    display: block;
+    margin: auto;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: green;
+}
+
+.formDiv {
+    margin: 30px;
+    padding: 15px;
+    background-color: lightblue;
+}
+
+.formBaslik {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -3px;
+}
+
+.arkadasIsmi {
+    width: 100%;
+    border-radius: 2px;
+    border: 1px black solid;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.tarih{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 2px;
+    border: 1px black solid;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.kayitButton{
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    height: 30px;
+    background-color: darkmagenta;
+    color: white;
+}
